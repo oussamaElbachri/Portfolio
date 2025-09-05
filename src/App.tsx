@@ -1,8 +1,6 @@
-import React from 'react';
-import { ArrowRight, Mail, Phone, MapPin, ChartNoAxesCombined, Github, Linkedin, ExternalLink, BrainCircuit, Code2, HardHat, Database, Cloud, Brain, Zap, Users, Target, TrendingUp, Calendar, Building } from 'lucide-react';
+import { ArrowRight, Mail, Phone, MapPin, ChartNoAxesCombined, Github, Linkedin, ExternalLink, BrainCircuit, Code2, HardHat, Database, Brain, Zap, Users, Target, TrendingUp, Calendar, Building } from 'lucide-react';
 import { TypeAnimation } from 'react-type-animation';
 import { SiPython, SiMysql, SiC, SiArduino} from "react-icons/si";
-import { GiHypersonicBolt } from "react-icons/gi";
 
 function App() {
   const scrollToSection = (id: string) => {
