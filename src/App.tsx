@@ -1,6 +1,6 @@
 import { ArrowRight, Mail, Phone, MapPin, ChartNoAxesCombined, Github, Linkedin, ExternalLink, BrainCircuit, Code2, HardHat, Database, Brain, Zap, Users, Target, TrendingUp, Calendar, Building } from 'lucide-react';
 import { TypeAnimation } from 'react-type-animation';
-import { SiPython, SiMysql, SiC, SiArduino} from "react-icons/si";
+import { SiPython, SiMysql, SiC, SiJavascript } from "react-icons/si";
 
 function App() {
   const scrollToSection = (id: string) => {
@@ -10,12 +10,12 @@ function App() {
 
   const skills = [
     { name: 'Full-Stack Development', icon: Code2 },
-    { name: 'Lean six sigma ', icon: ChartNoAxesCombined },
+    { name: 'Digital Strategy', icon: Target },
     { name: 'Data Analytics', icon: Database },
     { name: 'Process Automation', icon: Zap },
     { name: 'AI/ML Fundamentals', icon: Brain },
+    { name: 'Lean six sigma ', icon: ChartNoAxesCombined },
     { name: 'Team Collaboration', icon: Users },
-    { name: 'Digital Strategy', icon: Target },
     { name: 'Problem Solving', icon: TrendingUp }
   ];
 
@@ -31,27 +31,35 @@ function App() {
       company: "Sabca Maroc",
       period: "September 2024",
       description: "Worked on the quality inspection plan for the fuselage of the PC-12 aircraft in the Pilatus project using the instruction sheets."
+    },
+    {
+      title: "Electrical engineering technician Intern",
+      company: "Managem Group, CTT Bou-Azzer",
+      period: "April-June 2021",
+      description: "Study and design of the low voltage electrical installation using Caneco-BT."
     }
   ];
 
   const projects = [
     {
-      title: "Automated Reporting System",
-      description: "Built an automated reporting system during my data analytics internship that reduced manual report generation time by 60% and improved data accuracy.",
-      tech: ["Python", "Pandas", "PostgreSQL", "React", "Docker"],
-      impact: "60% time reduction"
+      title: "IoT Weather station",
+      description: "An embedded system collects, processes, and displays weather data. By using temperature, humidity, air quality, and light sensors connected to an Arduino Uno card, we were able to accurately measure and display the parameters affecting weather conditions.",
+      tech: ["Python/Django", "Arduino", "MySQL", "HTML/CSS", "Javascript/Node-Red"],
+      impact: "",
+      link : "https://www.linkedin.com/posts/oussama-el-bachri_fier-de-partager-un-projet-qui-a-marqu%C3%A9-activity-7270074357727555595-lWr0?utm_source=share&utm_medium=member_desktop&rcm=ACoAADdti7kBHS9z1KrYIOYNF9VDV3f-6Qq4_i0"
     },
     {
-      title: "Cloud Migration Assistant",
-      description: "Contributed to a cloud migration project by developing scripts and tools that streamlined the migration process for legacy applications.",
-      tech: ["AWS", "Python", "Docker", "Terraform", "Jenkins"],
-      impact: "Streamlined migration process"
+      title: "AI-powred air trajectory correction system",
+      description: "intelligent navigation IoT system integrating multiple sensors microcontroller, Kalman filter, Proteus, and an AI model trained with TensorFlow for optimal accuracy.",
+      tech: ["Python", "TanserFlow", "Arduino", "Proteus"],
+      impact: ""
     },
     {
-      title: "Student Management Portal",
-      description: "Developed a full-stack web application for managing student information and course enrollment, featuring real-time updates and responsive design.",
-      tech: ["React", "Node.js", "MongoDB", "Express", "Socket.io"],
-      impact: "Used by 500+ students"
+      title: "Design and Simulation of a Turbojet Engine",
+      description: "The theoretical study to determine the dimensions, optimize the performance, ensure reliability, and efficiency. Designed using CATIA V5 then simulated with ANSYS.",
+      tech: ["Catia V5", "Ansys fluent", "SolidWorks"],
+      impact: "",
+      link : "https://www.linkedin.com/posts/oussama-el-bachri_je-suis-ravi-de-partager-avec-vous-le-projet-activity-7270081948268613634-JEAs?utm_source=share&utm_medium=member_desktop&rcm=ACoAADdti7kBHS9z1KrYIOYNF9VDV3f-6Qq4_i0"
     }
   ];
 
@@ -75,7 +83,7 @@ function App() {
       </nav>
 
       {/* Hero Section */}
-      <section id="hero" className="pt-20 pb-16 px-4 sm:px-6 lg:px-8">
+      <section id="hero" className="pt-20 pb-16 px-4 sm:px-6 lg:px-8 bg-white">
         <div className="max-w-7xl mx-auto">
           <div className="grid grid-cols-2 gap-4 items-center">
             <div className="animate-fade-in">
@@ -141,7 +149,7 @@ function App() {
 
 
       {/* About Section */}
-      <section id="about" className="py-16 px-4 sm:px-6 lg:px-8 bg-slate-150">
+      <section id="about" className="py-16 px-4 sm:px-6 lg:px-8 bg-blue-100">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-12">
             <h2 className="text-4xl font-bold text-slate-900 mb-4">About Me</h2>
@@ -234,25 +242,25 @@ function App() {
           <div className='text-center mb-12 py-25'>
             <h2 className='text-4xl font-bold'>programming languages</h2>
             </div>
-            <div className="px-20 grid md:grid-cols-4 gap-4">
+            <div className="-mt-20 grid md:grid-cols-4 gap-4">
                 <div className="flex items-center">
                     <div className="rounded-lg p-3 mr-5">
-                      <SiPython className="h-40 w-40" />
+                      <SiPython className="h-30 w-40" />
                       </div>
                       </div>
                     <div className="flex items-center">
                     <div className="rounded-lg p-3 mr-5">
-                      <SiMysql className="h-50 w-50" />
+                      <SiMysql className="h-30 w-50" />
                       </div>
               </div>
               <div className="flex items-center">
                     <div className="rounded-lg p-3 mr-5">
-                      <SiC className="h-40 w-40" />
+                      <SiC className="h-30 w-40" />
                       </div>
               </div>
               <div className="flex items-center">
                     <div className="rounded-lg p-3 mr-5">
-                      <SiArduino className="h-60 w-60" />
+                      <SiJavascript className="h-30 w-60" />
                       </div>
               </div>
             </div>
@@ -296,7 +304,7 @@ function App() {
           <div className="text-center mb-12">
             <h2 className="text-4xl font-bold text-slate-900 mb-4">Featured Projects</h2>
             <p className="text-xl text-slate-600 max-w-2xl mx-auto">
-              Academic and internship projects demonstrating technical skills and business impact
+              Academic, group and personal projects demonstrating technical skills
             </p>
           </div>
           
@@ -304,8 +312,8 @@ function App() {
             {projects.map((project, index) => (
               <div key={index} className="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-lg transition-all duration-300 transform hover:-translate-y-1">
                 <div className="p-6">
-                  <h3 className="text-xl font-bold text-slate-900 mb-3">{project.title}</h3>
-                  <p className="text-slate-600 mb-4 leading-relaxed">{project.description}</p>
+                  <h3 className="text-xl font-bold text-slate-900 mb-10">{project.title}</h3>
+                  <p className="text-slate-600 mb-4 leading-relaxed h-50 w-90">{project.description}</p>
                   
                   <div className="mb-4">
                     <div className="flex flex-wrap gap-2">
@@ -321,9 +329,11 @@ function App() {
                     <div className="text-sm text-slate-500">
                       <span className="font-medium text-green-600">{project.impact}</span>
                     </div>
+                    <a href={project.link} target='_blank'>
                     <button className="inline-flex items-center text-blue-600 hover:text-blue-800 transition-colors">
                       <ExternalLink className="h-4 w-4" />
                     </button>
+                    </a>
                   </div>
                 </div>
               </div>
