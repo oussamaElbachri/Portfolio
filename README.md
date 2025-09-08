@@ -1,2 +1,2 @@
 # Portfolio
-this is my personal website that shows my work, and a demonste projects I worked on.
+this is my personal website that shows my work, demonstrate internships and academic projects I worked on.
