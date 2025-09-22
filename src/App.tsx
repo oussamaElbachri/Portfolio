@@ -95,7 +95,7 @@ function App() {
                 </span>
               </h1>
               <p className="text-xl md:text-1xl text-slate-600 mb-8 max-w-3xl mx-auto leading-relaxed">
-                I have a dgree in aeronautical engineering, but I like to code and learn new things.
+                I have a degree in aeronautical engineering, but I like to code and learn new things.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <button 
@@ -128,15 +128,15 @@ function App() {
               <div className="text-center">
                 <TypeAnimation className='text-xs md:text-xs mb-6 text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-blue-600'
                       sequence={[
-                        ' Digital Transformation',
+                        ' Continuios improvement ',
                         1000,
-                        ' Digital Transformation, IoT',
+                        ' Continuous improvement, industry 4.0 ',
                         1000,
-                        ' Digital Transformation, IoT, industrial & Aeronautical engineering',
+                        ' Continuous improvement, industry 4.0, Digitalization ',
                         3000,
-                        ' Digital Transformation, IoT',
+                        ' Continuous improvement, industry 4.0 ',
                         3000,
-                        ' Digital Transformation',
+                        ' Continuous improvement ',
                         3000,
                       ]}
                       speed={30}
