@@ -128,7 +128,7 @@ function App() {
               <div className="text-center">
                 <TypeAnimation className='text-xs md:text-xs mb-6 text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-blue-600'
                       sequence={[
-                        ' Continuios improvement ',
+                        ' Continuous improvement ',
                         1000,
                         ' Continuous improvement, industry 4.0 ',
                         1000,
