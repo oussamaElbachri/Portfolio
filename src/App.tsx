@@ -95,7 +95,7 @@ function App() {
                 </span>
               </h1>
               <p className="text-xl md:text-1xl text-slate-600 mb-8 max-w-3xl mx-auto leading-relaxed">
-                Driven by curiosity, I'm always eager to learn, and committed to sharing my knowledge.
+                Driven by curiosity, I'm always eager to learn, and committed to share my knowledge.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <button 
