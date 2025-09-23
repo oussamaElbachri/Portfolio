@@ -95,7 +95,7 @@ function App() {
                 </span>
               </h1>
               <p className="text-xl md:text-1xl text-slate-600 mb-8 max-w-3xl mx-auto leading-relaxed">
-                I have a degree in aeronautical engineering, but I like to code and learn new things.
+                Hello, I'm an Aeronautical engineering graduate, I'm passionate about continuous improvement and digital solutions. I’m driven by curiosity, always eager to learn, and committed to sharing my knowledge.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <button 
