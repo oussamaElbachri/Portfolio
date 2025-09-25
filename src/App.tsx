@@ -9,9 +9,9 @@ function App() {
   };
 
   const skills = [
-    { name: 'Full-Stack Development', icon: Code2 },
+    { name: 'programming and automation', icon: Code2 },
     { name: 'Digital Strategy', icon: Target },
-    { name: 'Data Analytics', icon: Database },
+    { name: 'Data Analysis', icon: Database },
     { name: 'Process Automation', icon: Zap },
     { name: 'AI/ML Fundamentals', icon: Brain },
     { name: 'Lean six sigma ', icon: ChartNoAxesCombined },
@@ -95,7 +95,7 @@ function App() {
                 </span>
               </h1>
               <p className="text-xl md:text-1xl text-slate-600 mb-8 max-w-3xl mx-auto leading-relaxed">
-                Driven by curiosity, I'm always eager to learn, and committed to share my knowledge.
+                Driven by curiosity, I'm always eager to learn, and committed to sharing my knowledge.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <button 
@@ -202,7 +202,7 @@ function App() {
                     <BrainCircuit className="h-5 w-5 text-white" />
                   </div>
                   <div>
-                    <h4 className="font-semibold text-slate-900">Automation & Data engineering</h4>
+                    <h4 className="font-semibold text-slate-900">Automation & Data analysis</h4>
                     <p className="text-slate-600">Exploring new tools in business automation and building experience with data solutions</p>
                   </div>
                 </div>
