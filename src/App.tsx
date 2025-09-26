@@ -9,14 +9,14 @@ function App() {
   };
 
   const skills = [
-    { name: 'programming and automation', icon: Code2 },
-    { name: 'Digitalization', icon: Target },
-    { name: 'Data Analysis', icon: Database },
-    { name: 'Process Automation', icon: Zap },
-    { name: 'AI/ML Fundamentals', icon: Brain },
-    { name: 'Lean six sigma ', icon: ChartNoAxesCombined },
-    { name: 'Team Collaboration', icon: Users },
-    { name: 'Problem Solving', icon: TrendingUp }
+    { name: 'Lean manufacturing ', icon: Target },
+    { name: 'Six sigma', icon: ChartNoAxesCombined },
+    { name: 'Project Management', icon: Zap },
+    { name: 'Root cause analysis', icon: Brain },
+    { name: 'Teamwork', icon: Users },
+    { name: 'Problem Solving', icon: TrendingUp },
+    { name: 'Programming', icon: Code2 },
+    { name: 'Data Analysis', icon: Database }
   ];
 
   const experience = [
