@@ -10,7 +10,7 @@ function App() {
 
   const skills = [
     { name: 'programming and automation', icon: Code2 },
-    { name: 'Digital Strategy', icon: Target },
+    { name: 'Digitalization', icon: Target },
     { name: 'Data Analysis', icon: Database },
     { name: 'Process Automation', icon: Zap },
     { name: 'AI/ML Fundamentals', icon: Brain },
