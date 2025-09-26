@@ -9,7 +9,7 @@ function App() {
   };
 
   const skills = [
-    { name: 'Lean manufacturing ', icon: TrendingUp },
+    { name: 'Lean manufacturing ', icon: HardHat },
     { name: 'Six sigma', icon: ChartNoAxesCombined },
     { name: 'Project Management', icon: Zap },
     { name: 'Root cause analysis', icon: Brain },
