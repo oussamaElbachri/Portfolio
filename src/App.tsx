@@ -26,10 +26,10 @@ function App() {
 
   const experience = [
     {
-      title: "Digital Transformation Engineering Intern",
+      title: "Digitalization Engineering Intern",
       company: "CETIM Maroc développement",
       period: "February-August 2025",
-      description: "Developed a digitalized tracking system for the fatigue testing laboratory accessible via PCs on the local network. The system provides a web-based interface containing ordered machine cards, indicating tests status and specimen informations."
+      description: "Developed a digital display platform (industry 4.0) for the fatigue testing laboratory accessible via PCs on the local network. The system provides a web-based interface containing ordered machine cards, indicating tests status and specimen informations."
     },
     {
       title: "Quality control engineering Intern",
@@ -164,10 +164,10 @@ function App() {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="space-y-6">
               <p className="text-lg text-slate-700 leading-relaxed">
-                As a recent aeronautical engineering graduate, I'm passionate about the intersection of technology and business. Through strategic internships, self-training and school courses, I've gained hands-on experience in digital transformation, data engineering, process automation and industrial engineering.
+                As a recent aeronautical engineering graduate, I'm passionate about the intersection of technology and business. Through internships, self-training and school courses, I've gained hands-on experience in digitalization and industry 4.0 technologies.
               </p>
               <p className="text-lg text-slate-700 leading-relaxed">
-                My internship experiences have exposed me to enterprise-scale digital solutions, waterfall development practices, and cross-functional collaboration. I'm eager to apply my technical skills and fresh perspective to contribute in shaping the future.
+                My internship experiences have exposed me to enterprise-scale digital solutions. I'm eager to apply my technical skills and fresh perspective to contribute to innovative projects that are transforming the industry.
               </p>
               <div className="flex flex-wrap gap-4">
                 <div className="flex items-center text-slate-600">
