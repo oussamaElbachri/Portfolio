@@ -29,7 +29,7 @@ function App() {
       title: "Digitalization Engineering Intern",
       company: "CETIM Maroc développement",
       period: "February-August 2025",
-      description: "Developed a digital display platform (industry 4.0) for the fatigue testing laboratory accessible via PCs on the local network. The system provides a web-based interface containing ordered machine cards, indicating tests status and specimen informations."
+      description: "Developed a digital display platform (industry 4.0) for the fatigue testing laboratory accessible via PCs on the local network. The system provides a web-based interface containing ordered machine cards, indicating tests status and informations."
     },
     {
       title: "Quality control engineering Intern",
