@@ -1,6 +1,11 @@
-import { ArrowRight, Mail, Phone, MapPin, ChartNoAxesCombined, Github, Linkedin, ExternalLink, BrainCircuit, Code2, HardHat, Database, Brain, Zap, Users, Target, TrendingUp, Calendar, Building } from 'lucide-react';
+import { ArrowRight, Mail, Phone, MapPin, ChartNoAxesCombined, Github, Linkedin, ExternalLink, BrainCircuit, Code2, HardHat, Database, Brain, Users, Target, Calendar, Building } from 'lucide-react';
 import { TypeAnimation } from 'react-type-animation';
 import { SiPython, SiMysql, SiC, SiJavascript } from "react-icons/si";
+import { AiOutlineFundProjectionScreen } from "react-icons/ai";
+import { PiStrategy } from "react-icons/pi";
+import { MdOutlinePrecisionManufacturing } from "react-icons/md";
+
+
 
 function App() {
   const scrollToSection = (id: string) => {
@@ -11,7 +16,7 @@ function App() {
   const skills = [
     { name: 'Lean manufacturing ', icon: HardHat },
     { name: 'Six sigma', icon: ChartNoAxesCombined },
-    { name: 'Project Management', icon: Zap },
+    { name: 'Project Management', icon: AiOutlineFundProjectionScreen },
     { name: 'Root cause analysis', icon: Brain },
     { name: 'Teamwork', icon: Users },
     { name: 'Problem Solving', icon: Target },
@@ -181,7 +186,7 @@ function App() {
               <div className="space-y-4">
                 <div className="flex items-start">
                   <div className="bg-blue-600 rounded-full p-2 mr-4">
-                    <Target className="h-5 w-5 text-white" />
+                    <PiStrategy className="h-5 w-5 text-white" />
                   </div>
                   <div>
                     <h4 className="font-semibold text-slate-900">Strategic Planning</h4>
@@ -190,7 +195,7 @@ function App() {
                 </div>
                 <div className="flex items-start">
                   <div className="bg-teal-600 rounded-full p-2 mr-4">
-                    <HardHat className="h-5 w-5 text-white" />
+                    <MdOutlinePrecisionManufacturing className="h-5 w-5 text-white" />
                   </div>
                   <div>
                     <h4 className="font-semibold text-slate-900">Industrial engineering</h4>
